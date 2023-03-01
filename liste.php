@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1>Insertion du film</h1>
-<?php
+<?<php
 
 $TITRE= $_GET['titre'];
 $GENRE = $_GET['genre'];
