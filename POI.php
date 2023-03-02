@@ -5,7 +5,7 @@ echo "lat\tlon\ttitle\tdescription\ticon\ticonSize\ticonOffset\n";
 echo "48.858205\t2.294359\tMoi\tMa Position\tOl_icon_blue_example.png\t24,24\t0,-24\n";
 
 //1° - Connexion à la BDD
-dbname=id20205714_facnanterre', 'id20205714_ammar', 'A8jFE5)UTW5Li*^o');
+$base = new PDO('mysql:host=localhost; dbname=id20205714_facnanterre', 'id20205714_ammar', 'A8jFE5)UTW5Li*^o');
 $base->exec("SET CHARACTER SET utf8");
 
 //2° - Préparation de requette et execution
