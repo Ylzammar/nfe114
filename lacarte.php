@@ -1,6 +1,6 @@
-html><body>
+<html><body>
   <div id="mapdiv"></div>
-  <script src="https://openlayers.org/api/OpenLayers.js%22%3E</script>
+  <script src="https://openlayers.org/api/OpenLayers.js%22%3E"></script>
 
 
 
@@ -16,7 +16,7 @@ html><body>
                     });
     map.addLayer(pois);
  
-    //Set start centrepoint and zoom hhh   hhh
+    //Set start centrepoint and zoom goooo
     var lonLat = new OpenLayers.LonLat(long,lat)
           .transform(
             new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
