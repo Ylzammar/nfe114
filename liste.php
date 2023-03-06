@@ -37,7 +37,7 @@
 
         <?php
             // Connexion à la BDD
-            $base = new PDO('mysql:host=localhost; dbname=id20205714_facnanterre', 'id20205714_ammar', 'A8jFE5)UTW5Li*^o');
+            $base = new PDO('mysql:host=localhost; dbname=id20205714_facnanterre', 'id20205714_ammar', 'dR=l[8+O!]qoz$S{');
             $base->exec("SET CHARACTER SET utf8");
 
             // Récupération des POI depuis la BDD
