@@ -7,7 +7,7 @@ $LAT = $_GET['lat'];
 echo "lat\tlon\ttitle\tdescription\ticon\ticonSize\ticonOffset\n";
 echo "$LAT\t$LONG\tMoi\tMa Position\tOl_icon_blue_example.png\t24,24\t0,-24\n";
 
-//1° - Connexion à la BDD
+//1° - Connexion à la BDDd
 $base = new PDO('mysql:host=localhost; dbname=id20205714_facnanterre', 'id20205714_ammar', 'A8jFE5)UTW5Li*^o');
 $base->exec("SET CHARACTER SET utf8");
 
