@@ -6,7 +6,7 @@ $LONGITUDE = $_GET['longitude'];
 $LATITUDE = $_GET['latitude'];
 //C'est le POI de l'utilisateur.
 echo "lat\tlon\ttitle\tdescription\ticon\ticonSize\ticonOffset\n";
-echo "$LATITUDE\t$LONGITUDE\tMoi\tMa Position\tperson.png\t24,24\t0,0\n";
+echo "$LATITUDE\t$LONGITUDE\tMoi\tMa Position\luffy.png\t24,24\t0,0\n";
 
 
 //1° - Connexion à la BDD...
@@ -23,7 +23,7 @@ LIMIT 10;
 
 //Boucle For
 while ($data = $retour->fetch()){
-    echo $data['equi_lat']."\t".$data['equi_long']."\t$data[equi_libelle]\t".(!empty($data['equi_bat']) ? $data['equi_bat'] : 'Informations non renseignées')."\tpoint_of_interest.png\t24,24\t0,-24\n";
+    echo $data['equi_lat']."\t".$data['equi_long']."\t$data[equi_libelle]\t".(!empty($data['equi_bat']) ? $data['equi_bat'] : 'Informations non renseignées')."\tOI_icon_red_example.png\t24,24\t0,-24\n";
 
 }
 
