@@ -12,12 +12,12 @@ $base = new PDO('mysql:host=localhost; dbname=id20205714_facnanterre', 'id202057
 $base->exec("SET CHARACTER SET utf8");
 
 //2° - Préparation de requette et execution
-$retour = $base->query('SELECT *, get_distance_metres(\'$LAT\', \'$LONG\', equi_lat, equi_long) 
+$retour = $base->query  ("SELECT *, get_distance_metres('$LAT', '$LONG', equi_lat, equi_long) 
 AS proximite 
 FROM equipement 
 HAVING proximite < 1000 ORDER BY proximite ASC
 LIMIT 10;
-');
+");
 
 //Boucle For
 while ($data = $retour->fetch()){
