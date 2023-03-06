@@ -26,7 +26,7 @@
         // Ajout des POI à la carte
         var iconStyle = new ol.style.Style({
             image: new ol.style.Icon({
-                src: 'Ol_icon_red_example.png',
+                src: 'Ol_icon_blue_example.png',
                 anchor: [0.5, 1],
                 anchorXUnits: 'fraction',
                 anchorYUnits: 'fraction',
