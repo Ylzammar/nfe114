@@ -6,7 +6,7 @@ $LONGITUDE = $_GET['longitude'];
 $LATITUDE = $_GET['latitude'];
 //C'est le POI de l'utilisateur.
 echo "lat\tlon\ttitle\tdescription\ticon\ticonSize\ticonOffset\n";
-echo "$LATITUDE\t$LONGITUDE\tMoi\tMa Position\luffy.png\t24,24\t0,0\n";
+echo "$LATITUDE\t$LONGITUDE\tMoi\tMa Position\tluffy.png\t24,24\t0,0\n";
 
 
 //1° - Connexion à la BDD...
